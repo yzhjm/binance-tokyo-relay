@@ -1,0 +1,9 @@
+{
+  "regions": ["hnd1"],
+  "rewrites": [
+    {
+      "source": "/fapi/(.*)",
+      "destination": "/api/proxy"
+    }
+  ]
+}
